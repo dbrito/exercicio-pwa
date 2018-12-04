@@ -3,9 +3,9 @@ importScripts('https://cdnjs.cloudflare.com/ajax/libs/sw-toolbox/3.6.1/sw-toolbo
 toolbox.options.debug = true;
 
 toolbox.precache([
-    '../index.html',
-    '../views/criar.html',
-    '../views/home.html',
+    'index.html',
+    'views/criar.html',
+    'views/home.html',
     'main.js',
     'https://code.jquery.com/jquery-3.3.1.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',
